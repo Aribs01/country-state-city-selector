@@ -1,189 +1,152 @@
 {
-    "data": [
-        {
-            "id": 3,
-            "name": "Adamawa",
-            "country_id": 1
-        },
-        {
-            "id": 4,
-            "name": "Akwa Ibom",
-            "country_id": 1
-        },
-        {
-            "id": 5,
-            "name": "Anambra",
-            "country_id": 1
-        },
-        {
-            "id": 7,
-            "name": "Bauchi",
-            "country_id": 1
-        },
-        {
-            "id": 8,
-            "name": "Bayelsa",
-            "country_id": 1
-        },
-        {
-            "id": 9,
-            "name": "Benue",
-            "country_id": 1
-        },
-        {
-            "id": 11,
-            "name": "Cross River",
-            "country_id": 1
-        },
-        {
-            "id": 12,
-            "name": "Delta",
-            "country_id": 1
-        },
-        {
-            "id": 10,
-            "name": "Borno",
-            "country_id": 1
-        },
-        {
-            "id": 21,
-            "name": "Ekiti",
-            "country_id": 1
-        },
-        {
-            "id": 13,
-            "name": "Edo",
-            "country_id": 1
-        },
-        {
-            "id": 22,
-            "name": "Enugu",
-            "country_id": 1
-        },
-        {
-            "id": 23,
-            "name": "Gombe",
-            "country_id": 1
-        },
-        {
-            "id": 24,
-            "name": "Imo",
-            "country_id": 1
-        },
-        {
-            "id": 25,
-            "name": "Jigawa",
-            "country_id": 1
-        },
-        {
-            "id": 26,
-            "name": "Kaduna",
-            "country_id": 1
-        },
-        {
-            "id": 27,
-            "name": "Kano",
-            "country_id": 1
-        },
-        {
-            "id": 28,
-            "name": "Katsina",
-            "country_id": 1
-        },
-        {
-            "id": 33,
-            "name": "Kebbi",
-            "country_id": 1
-        },
-        {
-            "id": 34,
-            "name": "Kogi",
-            "country_id": 1
-        },
-        {
-            "id": 35,
-            "name": "Kwara",
-            "country_id": 1
-        },
-        {
-            "id": 37,
-            "name": "Lagos",
-            "country_id": 1
-        },
-        {
-            "id": 38,
-            "name": "Nasarawa",
-            "country_id": 1
-        },
-        {
-            "id": 39,
-            "name": "Niger",
-            "country_id": 1
-        },
-        {
-            "id": 40,
-            "name": "Ogun",
-            "country_id": 1
-        },
-        {
-            "id": 41,
-            "name": "Ondo",
-            "country_id": 1
-        },
-        {
-            "id": 42,
-            "name": "Osun",
-            "country_id": 1
-        },
-        {
-            "id": 43,
-            "name": "Oyo",
-            "country_id": 1
-        },
-        {
-            "id": 44,
-            "name": "Plateau",
-            "country_id": 1
-        },
-        {
-            "id": 46,
-            "name": "Rivers",
-            "country_id": 1
-        },
-        {
-            "id": 47,
-            "name": "Sokoto",
-            "country_id": 1
-        },
-        {
-            "id": 48,
-            "name": "Taraba",
-            "country_id": 1
-        },
-        {
-            "id": 49,
-            "name": "Yobe",
-            "country_id": 1
-        },
-        {
-            "id": 50,
-            "name": "Zamfara",
-            "country_id": 1
-        },
-        {
-            "id": 2,
-            "name": "Abia",
-            "country_id": 1
-        },
-        {
-            "id": 51,
-            "name": "Federal Capital Territory",
-            "country_id": 1
-        },
-        {
-            "id": 20,
-            "name": "Ebonyi ",
-            "country_id": 1
-        }
-    ]
+  "data": [
+    {
+      "id": 3,
+      "name": "Adamawa"
+    },
+    {
+      "id": 4,
+      "name": "Akwa Ibom"
+    },
+    {
+      "id": 5,
+      "name": "Anambra"
+    },
+    {
+      "id": 7,
+      "name": "Bauchi"
+    },
+    {
+      "id": 8,
+      "name": "Bayelsa"
+    },
+    {
+      "id": 9,
+      "name": "Benue"
+    },
+    {
+      "id": 11,
+      "name": "Cross River"
+    },
+    {
+      "id": 12,
+      "name": "Delta"
+    },
+    {
+      "id": 10,
+      "name": "Borno"
+    },
+    {
+      "id": 21,
+      "name": "Ekiti"
+    },
+    {
+      "id": 13,
+      "name": "Edo"
+    },
+    {
+      "id": 22,
+      "name": "Enugu"
+    },
+    {
+      "id": 23,
+      "name": "Gombe"
+    },
+    {
+      "id": 24,
+      "name": "Imo"
+    },
+    {
+      "id": 25,
+      "name": "Jigawa"
+    },
+    {
+      "id": 26,
+      "name": "Kaduna"
+    },
+    {
+      "id": 27,
+      "name": "Kano"
+    },
+    {
+      "id": 28,
+      "name": "Katsina"
+    },
+    {
+      "id": 33,
+      "name": "Kebbi"
+    },
+    {
+      "id": 34,
+      "name": "Kogi"
+    },
+    {
+      "id": 35,
+      "name": "Kwara"
+    },
+    {
+      "id": 37,
+      "name": "Lagos"
+    },
+    {
+      "id": 38,
+      "name": "Nasarawa"
+    },
+    {
+      "id": 39,
+      "name": "Niger"
+    },
+    {
+      "id": 40,
+      "name": "Ogun"
+    },
+    {
+      "id": 41,
+      "name": "Ondo"
+    },
+    {
+      "id": 42,
+      "name": "Osun"
+    },
+    {
+      "id": 43,
+      "name": "Oyo"
+    },
+    {
+      "id": 44,
+      "name": "Plateau"
+    },
+    {
+      "id": 46,
+      "name": "Rivers"
+    },
+    {
+      "id": 47,
+      "name": "Sokoto"
+    },
+    {
+      "id": 48,
+      "name": "Taraba"
+    },
+    {
+      "id": 49,
+      "name": "Yobe"
+    },
+    {
+      "id": 50,
+      "name": "Zamfara"
+    },
+    {
+      "id": 2,
+      "name": "Abia"
+    },
+    {
+      "id": 51,
+      "name": "Federal Capital Territory"
+    },
+    {
+      "id": 20,
+      "name": "Ebonyi "
+    }
+  ]
 }

@@ -1,9 +1,8 @@
 {
-  "name": "country-state-city-selector",
-  "version": "1.0.1",
-  "description": "",
+  "name": "nigerian-state-city-selector",
+  "version": "1.0.3",
+  "description": "nigerian-state-city-selector",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
