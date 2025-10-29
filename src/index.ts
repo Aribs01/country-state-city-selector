@@ -23,12 +23,18 @@ export class CountryStateCitySelector {
   }
 
   getStates(): StateDataInterface[] {
-    return this.stateList;
+    return this.stateList.slice().sort((a, b) => {
+      if (a.name === "Federal Capital Territory") return 1;
+      if (b.name === "Federal Capital Territory") return -1;
+      return a.name.localeCompare(b.name);
+    });
   }
 
   // Select a state by its Name
   selectState(stateName: string) {
-    const state = this.stateList.filter((s) => s.name === stateName)[0];
+    const state = this.stateList.filter(
+      (s) => s.name.toLowerCase() === stateName.toLowerCase()
+    )[0];
 
     this.currentState = state;
   }
@@ -37,8 +43,8 @@ export class CountryStateCitySelector {
     if (!this.currentState) {
       return [];
     }
-    return this.cityList.filter(
-      (city) => city.state_id === this.currentState?.id
-    );
+    return this.cityList
+      .filter((city) => city.state_id === this.currentState?.id)
+      .sort((a, b) => a.name.localeCompare(b.name));
   }
 }
